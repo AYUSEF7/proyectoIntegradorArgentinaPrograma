@@ -9,6 +9,7 @@ import { SocialComponent } from './components/social/social.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { AcercaDeComponent } from './components/acerca-de/acerca-de.component';
 import { ExpComponent } from './components/exp/exp.component';
+import { EducComponent } from './components/educ/educ.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ExpComponent } from './components/exp/exp.component';
     SocialComponent,
     BannerComponent,
     AcercaDeComponent,
-    ExpComponent
+    ExpComponent,
+    EducComponent
   ],
   imports: [
     BrowserModule,
